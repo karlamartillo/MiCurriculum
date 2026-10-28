@@ -1,0 +1,172 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: ghostwhite;
+    color: #333333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #174a70;
+    text-align: center;
+}
+
+h2 {
+    color: #1769aa;
+    border-bottom: 2px solid #1769aa;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Organizar el contenido principal */
+body {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Dar estilo a la fotografía */
+img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 3px solid #1769aa;
+}
+
+/* Separar las secciones */
+h2 {
+    margin-top: 30px;
+    padding-bottom: 8px;
+}
+
+/* Mejorar la apariencia de las listas */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Dar estilo a los enlaces */
+a {
+    color: #1769aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Encabezado del currículum */
+.encabezado {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    margin-bottom: 30px;
+}
+
+/* Nombre de la persona */
+.encabezado h1 {
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+/* Profesión o especialidad */
+.subtitulo {
+    color: #1769aa;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Texto de presentación */
+.presentacion {
+    max-width: 650px;
+    margin: 15px auto 0;
+}
+
+/* Diseño de las tarjetas */
+.tarjeta {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Diseño del menú de navegación */
+.menu {
+    background-color: #174a70;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Diseño de los enlaces del menú */
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Efecto cuando pasamos el cursor */
+.menu a:hover {
+    background-color: #1769aa;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .encabezado {
+        padding: 20px 10px;
+    }
+
+    .encabezado h1 {
+        font-size: 25px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 5px;
+    }
+
+    .menu a {
+        text-align: center;
+    }
+
+    .tarjeta {
+        padding: 15px;
+    }
+
+}
+
+/* Mejorar los enlaces de contacto */
+#contacto a {
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+#contacto a:hover {
+    color: #174a70;
+}
